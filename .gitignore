@@ -10,5 +10,5 @@
 !icon.ico
 
 # スクリーンショット用フォルダ（README に画像を載せる場合）
-!images/
-!images/**
+!image/
+!image/**
