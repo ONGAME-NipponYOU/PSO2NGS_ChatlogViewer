@@ -34,7 +34,7 @@ PSO2 NGS のチャットログをリアルタイムで読み取り、別ウィ�
 
 ## 使い方
 
-1. [Releases](../../releases) から最新の `PSO2NGSチャット表示ツール.exe` をダウンロード
+1. [Releases](../../releases) から最新の `PSO2NGS_ChatlogViewer.exe` をダウンロード
 2. 好きなフォルダに置いてダブルクリックで起動
 3. ゲームでチャットが流れると表示されます
 
@@ -72,7 +72,7 @@ PSO2 NGS のチャットログをリアルタイムで読み取り、別ウィ�
 ```powershell
 Install-Module -Name ps2exe -Scope CurrentUser
 ps2exe -inputFile ".\PSO2NGS_ChatlogViewer.ps1" `
-       -outputFile ".\PSO2NGSチャット表示ツール.exe" `
+       -outputFile ".\PSO2NGS_ChatlogViewer.exe" `
        -iconFile ".\icon.ico" `
        -title "PSO2NGSチャット表示ツール" `
        -description "チャットログを監視して表示します" `
